@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
   <header class="header">
-    <span>Julia Machado</span>
+    <img class="girl-img" src="..\Porfolio_01\img\lady+nerd+school+girl+icon-1320166693034842264.png" alt="menina geek">
     <nav aria-label="primária">
       <ul class="header-menu">
         <li><a href="#experiencia">Experiências</a></li>
@@ -21,65 +21,126 @@
     </nav>
   </header>
 
-  <main>
-    <article class="perfil">
-      <img src="./img/DSC_4385.jpg" alt="Foto perfil">
-      <h2>Desenvolvedora Front-end & Python</h2>
+  <main class="introducao">
+    <img src="./img/DSC_4385.jpg" alt="Foto perfil">
+    <div>
+      <h1>Desenvolvedora <br>Python &<br> Front-End</h1>
       <p>Vitória - ES. Brazil.</p>
-    </article>
-
-    <article class="experiencias">
-      <div class="titulo">
-        EXPERIÊNCIAS
-      </div>
-      <ul class="descricao-experiencias">
-        <dl>DBA</dl>
-        <span>Globalsys (mai/2022 - ago/2022)</span>
-        <dd>Criação e descrição de bancos de dados físicos e lógicos através de SGBD</dd>
-        <dd>Desenvolvimento e implementação de iniciativas de segurança a fim de proteger dados importantes da empresa.</dd>
-        <dd>Avaliação das necessidades e objetivos dos clientes ao personalizar bancos de dados existentes.</dd>
-        <dd>Redação de scripts e processos para integração de dados e reparo de bugs.</dd>
-        <dd>Organização do trabalho diário, buscando otimizar o tempo e evitar imprevistos.</dd>
-        <dd>Auxílio em tarefas de secretariado, como atendimento telefônico, agendamento de compromissos e envio de correspondências, facilitando a rotina do departamento.</dd>
-        <dd>Monitoramento de múltiplos bancos de dados para acompanhar toda movimentação da empresa</dd>
-
-        <dl>RPA</dl>
-        <span>Globalsys (ago/2022 - presente)</span>
-        <dd>Resolução de problemas dos clientes, mantendo a gentileza e a calma em momentos de estresse.</dd>
-        <dd>Otimização das operações e dos fluxos de trabalho de uma empresa por meio de robôs.</dd>
-        <dd>Criação de robôs de software, ou bots, que podem aprender,simular e executar processos de negócios baseados em regras.</dd>
-        <dd>Mapeamento de processos
-        <dd>Criação de diagramas, workflows e registro de todos os  passos da execução antes de utilizar os robôs.</dd>
-    </article>
-
-    <article class="habilidades">
-      <div class="titulo">
-        HABILIDADES
-      </div>
-      <div class="itens-habilidades">
-        <h3>Python</h3>
-        <h3>Git e Github</h3>
-        <h3>MySQL</h3>
-        <h3>Oracle</h3>
-        <h3>Django</h3>
-        <h3>Html</h3>
-        <h3>CSS</h3>
-        <h3>Javascript</h3>
-        <h3>Selenium</h3>
-        <h3>Pyautogui</h3>
-        <h3>Pywinauto</h3>
-      </div>
-
-
-
-        
-      </ul>
-    </article>
+    </div>
   </main>
+
+  <section class="experiencia" id="experiencia" aria-label="Experiencia">
+    <h2 class="subtitulo">EXPERIÊNCIA</h2>
+    <div>
+      <p class="experiencias-texto">Ímpeto de <strong>liderança</strong> de equipes de alto desempenho voltadas a atingir ou <strong>superar</strong> metas. Dedicada e esforçada, com determinação em entregar excelência, buscando sempre o desenvolvimento de soluções para <strong>poupar custos</strong> desenvolver lucro e direcionar a <strong>satisfação</strong> das partes envolvidas</p>
+    
+    <div class="empresa">
+      <span class="empresa-ano">Mai/2022 - Ago/2022</span>
+      <h3 class="empresa-titulo">Globalsys</h3>
+      <span class="empresa-titulo">Estágio DBA</span>
+      <p class="empresa-texto">
+        Criação e descrição de bancos de dados físicos e lógicos através de SGBD;<br>
+        Desenvolvimento e implementação de iniciativas de segurança a fim de proteger dados importantes da empresa;<br>
+        Avaliação das necessidades e objetivos dos clientes ao personalizar bancos de dados existentes;<br>
+        Redação de scripts e processos para integração de dados e reparo de bugs;<br>
+        Organização do trabalho diário, buscando otimizar o tempo e evitar imprevistos;<br>
+        Auxílio em tarefas de secretariado, como atendimento telefônico, agendamento de compromissos, facilitando a rotina do departamento;<br>
+        Monitoramento de múltiplos bancos de dados para acompanhar toda movimentação da empresa.<br>
+      </p>
+      <ul class="empresa-habilidades">
+        <li>Oracle</li>
+        <li>MySQL</li>
+        <li>Postgres</li>
+      </ul>
+    </div>
+
+    <div class="empresa">
+      <span class="empresa-ano">Ago/22 - Presente</span>
+      <h3 class="empresa-titulo">Globalsys</h3>
+      <span class="empresa-titulo">Estágio RPA</span>
+      <p class="empresa-texto">
+        Resolução de problemas dos clientes, mantendo a gentileza e a calma em momentos de estresse;<br>
+        Otimização das operações e dos fluxos de trabalho de uma empresa por meio de robôs;<br>
+        Criação de robôs de software, ou bots, que podem aprender,simular e executar processos de negócios baseados em regras;<br>
+        Mapeamento de processos;<br>
+        Criação de diagramas, workflows e registro de todos os  passos da execução antes de utilizar os robôs.<br>
+      </p>
+      <ul class="empresa-habilidades">
+        <li>Python</li>
+        <li>Selenium</li>
+        <li>Pywinauto</li>
+        <li>Pyautogui</li>
+        <li>Pandas</li>
+      </ul>
+    </div>
+    </div>
+  </section>
+
+  <section class="formacao" id="formacao" aria-label="Formacao">
+    <div class = formacao-container>
+      <h2 class="subtitulo">FORMAÇÃO</h2>
+      
+      <div>
+        <ul class="faculdade-lista">
+          <li class="faculdade">
+            <span class="faculdade-tipo">Bacharel</span>
+            <h3 class="faculdade-curso">Arquitetura e Urbanismo</h3>
+            <span class="faculdade-instituicao">MULTIVIX</span>
+            <span class="faculdade-tipo">2013 - 2017</span>
+          </li>
+
+          <li class="faculdade">
+            <span class="faculdade-tipo">Graduação</span>
+            <h3 class="faculdade-curso">Ciência da Computação</h3>
+            <span class="faculdade-instituicao">FAESA</span>
+            <span class="faculdade-tipo">Jul/2021 - Jul/2025</span>
+          </li>
+        </ul>
+
+        <div class="formacao-extra">
+          <div class="cursos">
+            <h3>Cursos</h3>
+            <ul>
+              <li>
+                Curso em video Mundo 1 - Python <span>40h</span>
+              <li>
+              Curso em video Mundo 2 - Python <span>40h</span>
+              <li>
+                Curso em video Mundo 3 - Python <span>40h</span>
+              <li>
+              Descubra o Python - LinkedIn Learn <span>2h</span>
+              <li>
+               Git e GitHub: Formação Básica - LinkedIn Learn <span>1h</span>
+              <li>
+                Fundamentos em Gerenciamento
+                de Projetos - NTT Academy
+              </li>
+              <li>
+                Cultura & Pessoas - Persora <span>10h</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="idiomas">
+            <h3>Idiomas</h3>
+            <ul>
+              <li>
+                Inglês  <span>/Fluente</span>
+              </li>
+              <li>
+                Italiano  <span>/Intermediário</span>
+              </li>
+              <li>
+                Espanhol  <span>/Básico</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
 
 </body>
 
-<footer>
-
-</footer>
 </html>

@@ -1,0 +1,79 @@
+.introducao {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .introducao h1 {
+    font-size: 4.5rem;
+    line-height: 1.125;
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+.introducao h1::before{
+  content:"";
+  display: block;
+  background: url("../Porfolio_01/img/decorative-line.png") no-repeat center;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.introducao p {
+  font-size: 1rem;
+}
+
+@media (max-width: 800px){
+  .introducao h1{
+    font-size: 3rem;
+  }
+
+  .introducao h1::before{
+    content:"";
+    display: block;
+    background: url("../Porfolio_01/img/decorative-line.png") no-repeat center;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -0px;
+    left: -0px;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 800px){
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+  }
+  .introducao h1{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px){
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    justify-content: center;
+
+  }
+  .introducao div{
+    font-size: 3rem;
+    justify-self: center;
+  }
+  .introducao img{
+    width: 300px;
+    justify-self: center;
+  }
+}
